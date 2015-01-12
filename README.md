@@ -1,1 +1,1 @@
-# docker-ruby
+# Ruby image
