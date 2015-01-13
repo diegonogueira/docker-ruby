@@ -12,6 +12,8 @@ RUN apt-get install -y zlib1g-dev
 RUN apt-get install -y libncurses5-dev
 RUN apt-get install -y imagemagick
 RUN apt-get install -y curl --no-install-recommends
+RUN apt-get install -y postgresql-contrib-9.3
+RUN apt-get install -y libpq-dev
 
 RUN rm -rf /var/lib/apt/lists/*
 
